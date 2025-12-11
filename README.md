@@ -274,16 +274,59 @@ Repository: [https://github.com/SoufianeMouss/rideau-canal-dashboard](https://gi
 
 *(Screenshots stored in `/screenshots`)*
 
-Included:
+#### **1. IoT Hub – Device List**  
+Shows the three registered devices (DowsLake, FifthAvenue, NAC).
 
-* IoT Hub device list
-* IoT Hub Metrics (messages received)
-* Stream Analytics Query
-* Stream Analytics Running
-* Cosmos DB documents
-* Blob Storage archive
-* Local dashboard
-* Azure-deployed dashboard
+![IoT Hub Devices](screenshots/01-iot-hub-devices.png)
+
+---
+
+#### **2. IoT Hub – Message Metrics**  
+Confirms telemetry is being received in real time.
+
+![IoT Hub Metrics](screenshots/02-iot-hub-metrics.png)
+
+---
+
+#### **3. Stream Analytics – Query**  
+The query used to aggregate and classify sensor data.
+
+![Stream Analytics Query](screenshots/03-stream-analytics-query.png)
+
+---
+
+#### **4. Stream Analytics – Running Job**  
+Verifies that the job is active and connected to inputs and outputs.
+
+![Stream Analytics Running](screenshots/04-stream-analytics-running.png)
+
+---
+
+#### **5. Cosmos DB – Aggregated Documents**  
+Processed 5-minute window documents stored in Cosmos DB.
+
+![Cosmos DB Data](screenshots/05-cosmos-db-data.png)
+
+---
+
+#### **6. Blob Storage – Historical Archive**  
+Windowed JSON output files stored for long-term retention.
+
+![Blob Storage Files](screenshots/06-blob-storage-files.png)
+
+---
+
+#### **7. Web Dashboard – Local Version**  
+Dashboard running locally with condition cards and trend chart.
+
+![Dashboard Local](screenshots/07-dashboard-local.png)
+
+---
+
+#### **8. Web Dashboard – Azure Deployed Version**  
+Dashboard running on Azure App Service.
+
+![Dashboard Azure](screenshots/08-dashboard-azure.png)
 
 ### Data Analysis
 
